@@ -251,7 +251,7 @@ export default function currentRefinedValues({
   const cssClasses = {
     root: cx(bem(null), userCssClasses.root),
     header: cx(bem('header'), userCssClasses.header),
-    body: cx(bem('body'), userCssClasses.body),
+    // body: cx(bem('body'), userCssClasses.body),
     clearAll: cx(bem('clear-all'), userCssClasses.clearAll),
     list: cx(bem('list'), userCssClasses.list),
     item: cx(bem('item'), userCssClasses.item),
